@@ -1,0 +1,17 @@
+ {
+    "rust-analyzer.cargo.target": "armv7-unknown-linux-gnueabihf",
+    "cSpell.words": [
+        "armv",
+        "Gpio",
+        "mqtt",
+        "paho",
+        "rppal",
+        "SIGINT"
+    ]
+ }
+//{
+//    "rust-targets.targets": [
+//        "system",
+//        "armv7-unknown-linux-gnueabihf"
+//    ]
+//}

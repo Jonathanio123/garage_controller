@@ -1,0 +1,13 @@
+[Unit]
+Description=Garage Controller
+
+[Service]
+User=root
+WorkingDirectory=/root/garage_controller
+ExecStart=/root/garage_controller/garage_controller
+Restart=always
+RestartSec=60s
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
